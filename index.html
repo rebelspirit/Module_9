@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+  <style>
+  .btn {
+  font-size: 25px;
+    height: 50px;
+    width: 50px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    background: rgba(241,231,103,1);
+    border-radius: 10px 10px 10px 10px;
+    border-color: #e7a61a;
+    text-transform: uppercase;
+    outline: none;
+  }
+  .btn_space {
+    width: 550px;
+  }
+  
+  .active {
+  background: rgba(254,182,69,1);
+  }
+  body {
+    text-align: center;
+  }
+  </style>
+
+</head>
+<body>
+    <script type="template" id="keyboard-template"></script>
+  <div id="block"></div>
+  
+  <audio class="sonidos" src="http://goo.gl/T1rxRG" data-note="do"></audio>
+  <audio class="sonidos" src="http://goo.gl/KT8FN3" data-note="re"></audio>
+  <audio class="sonidos" src="http://goo.gl/1SfsNS" data-note="mi"></audio>
+  <audio class="sonidos" src="http://goo.gl/OsOCXe" data-note="fa"></audio>
+  <audio class="sonidos" src="http://goo.gl/vukZmv" data-note="sol"></audio>
+  <audio class="sonidos" src="http://goo.gl/Bjd9KT" data-note="la"></audio>
+  <audio class="sonidos" src="http://goo.gl/MS9HTp" data-note="si"></audio>
+
+  <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.4/lodash.min.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
